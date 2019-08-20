@@ -23,4 +23,49 @@ print(total)
 # Python 可以使用引号( ' )、双引号( " )、三引号( ''' 或 """ ) 来表示字符串，引号的开始与结束必须的相同类型的
 word = 'word'
 sentence = "这是一个句子。"
-paragraph = """这是一个段落。
+
+'''
+注释
+区域
+不执行
+'''
+
+"""
+多行注释
+双引号
+"""
+
+a, b = 0, 1
+while a < 10:
+    """
+    赋值运算 先计算赋值号 计算等值 右边 那么 b=1 a+b=1
+    """
+    a, b = b, a+b
+    print("a , b : ", a, b)
+
+"""
+x = int(input("Please enter an integer: "))
+if x <= 0:
+    print('x <= 0')
+elif x == 1:
+    print('x = 1')
+else:
+    print('more')
+"""
+
+words = ['1', '2', 'a', 'b', '1234567']
+for w in words:
+    print(w)
+
+for w in words[:]:
+    if len(w) > 6:
+        print(w)
+        # 1234567
+
+# 0 - 4
+for i in range(5):
+    print(i)
+
+# 5 - 9
+for i in range(5, 10):
+    print(i)
