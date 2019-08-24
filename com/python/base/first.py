@@ -16,8 +16,8 @@ item_one = '1'
 item_two = '2'
 item_three = '3'
 total = item_one + \
-    item_two + \
-    item_three
+        item_two + \
+        item_three
 print(total)
 
 # Python 可以使用引号( ' )、双引号( " )、三引号( ''' 或 """ ) 来表示字符串，引号的开始与结束必须的相同类型的
@@ -40,7 +40,7 @@ while a < 10:
     """
     赋值运算 先计算赋值号 计算等值 右边 那么 b=1 a+b=1
     """
-    a, b = b, a+b
+    a, b = b, a + b
     print("a , b : ", a, b)
 
 """
@@ -69,3 +69,37 @@ for i in range(5):
 # 5 - 9
 for i in range(5, 10):
     print(i)
+
+
+def ask_ok():
+    v = 1
+    while v < 10:
+        v = v + 1
+    else:
+        return v
+
+
+var = ask_ok()
+print(var, " : v")
+
+i = 5
+
+
+def f(arg=i):
+    print(arg)
+
+
+i = 6
+f()
+
+
+def f(a1, l1=[]):
+    l1.append(a1)
+    return l1
+
+
+print(f(1))
+print(f(2))
+print(f(3))
+
+
