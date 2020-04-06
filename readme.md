@@ -5,9 +5,3 @@ agent功能:
     2.采集本地mysql指标 慢日志 错误日志 锁等待 等 
     
     3.上报kafka
-    
-graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
