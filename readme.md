@@ -6,3 +6,8 @@ agent功能:
     
     3.上报kafka
     
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
